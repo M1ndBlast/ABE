@@ -1,0 +1,22 @@
+{
+  "name": "agente",
+  "version": "1.0.0",
+  "description": "Desarrollo de un agente como chatbot capaz de otorgar informes de una escuela",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agent",
+    "AI",
+    "whatsapp",
+    "school"
+  ],
+  "author": "M1ndBlast",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.14.1"
+  }
+}
