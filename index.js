@@ -49,11 +49,6 @@ function setupClient() {
     client.on('message', msg => {
         answerer(msg)
     })
-
-    client.on('message_create', msg => {
-        if (msg.fromMe)
-            answerer(msg)
-    })
 }
 
 const client = new Client({ session: sessionData, });
