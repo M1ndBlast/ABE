@@ -51,6 +51,9 @@ function setupClient() {
     })
 }
 
-const client = new Client({ session: sessionData, });
+// For windows
+// const client = new Client({ session: sessionData, });
+// For raspberry
+const client = new Client({ session: sessionData, puppeteer: { executablePath: "/usr/bin/chromium-browser", }, });
 client.initialize();
 setupClient()
